@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "player_hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Runner"
+        },
+        "entity": {
+          "team": "Hunter"
+        }
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "function": "manhunt:start.mcfunction"
+  }
+}

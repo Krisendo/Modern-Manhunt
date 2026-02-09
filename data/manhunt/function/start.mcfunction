@@ -1,6 +1,8 @@
 # Modernized Manhunt - Start Function
 # Begins the manhunt game
 
+advancement revoke @a only manhunt:hit_hunter
+
 # Check if already running
 execute if score #game mh.state matches 1..2 run tellraw @a ["",{"text":"[Manhunt] ","color":"gold"},{"text":"Game is already running! Use ","color":"red"},{"text":"/function manhunt:stop","color":"yellow"},{"text":" first.","color":"red"}]
 execute if score #game mh.state matches 1..2 run return fail
