@@ -1,0 +1,1 @@
+This pack was created by ReAnimated and is inspired by lprogrammer’s datapack. It is not a fork and shares no code. All functionality was written from scratch. The only shared influence is the idea of a more modern approach using the locator bar instead of a compass.
